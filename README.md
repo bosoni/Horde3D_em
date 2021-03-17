@@ -5,15 +5,18 @@ Horde3D is a small open source 3D rendering engine.
 This is a fork of https://github.com/attilaz/horde3d-x/tree/gles2_d3d11
 which is based on horde3d beta5. This can be compiled to js/wasm with emscripten.
 
-Horde3D/Samples/ directory contains 3 makefiles and .bat file.
+Horde3D/Samples/ directory contains makefiles and .bat file.
+
 Edit h3d_compile.bat if needed.
+
 h3d_compile.bat takes makefile as a parameter ie
+
 h3d_compile.bat Makefile_emscripten_DEBUG
 
 ---
 
 Small wasm test at
-Horde3D/Samples/h3d_test.html
+Horde3D/Samples/index.html
 
 ---
 
