@@ -60,6 +60,7 @@ Test_1.cpp
 	../Source/Horde3DUtils/main.cpp \
 	Test_1.cpp \
 	-I. -I../Source/Horde3DEngine -I../../Extensions -I../Source/Shared -I../Bindings/C++ \
-	-O3 -s USE_SDL=2 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 -DFORCE_H3D_RENDERER_GLES2=1      \
+	-s ERROR_ON_UNDEFINED_SYMBOLS=0  \
+	-O3  -s USE_SDL=2  -s WASM=1  -s ALLOW_MEMORY_GROWTH=1  -DFORCE_H3D_RENDERER_GLES2=1  \
 	--preload-file Content \
-	-o h3d_test.js
+	-o index.html
